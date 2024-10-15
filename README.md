@@ -11,7 +11,7 @@ Options:
 ```
 
 ```bash
-npx conventional-commit --fix "removes 'npm hooks' command" -b "The 'npm hooks' command has been removed"
+npx commsg --fix "removes 'npm hooks' command" -b "The 'npm hooks' command has been removed"
 ```
 
 Simply prints:
