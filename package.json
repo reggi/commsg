@@ -1,0 +1,27 @@
+{
+  "name": "commsg",
+  "version": "1.0.0",
+  "description": "Prints git command to commit with a conventional commit message.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reggi/commsg"
+  },
+  "license": "ISC",
+  "author": "reggi",
+  "main": "index.js",
+  "bin": {
+    "commsg": "bin.js"
+  },
+  "scripts": {
+    "style": "prettier --check .",
+    "style:fix": "prettier --write ."
+  },
+  "prettier": "@github/prettier-config",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  },
+  "devDependencies": {
+    "@github/prettier-config": "^0.0.6",
+    "prettier": "^3.2.5"
+  }
+}
